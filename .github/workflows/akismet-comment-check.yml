@@ -7,7 +7,7 @@ jobs:
   check-akismet:
     runs-on: ubuntu-latest
     steps:
-      - name: 检查并删除垃圾评论
+      - name: 检查并删除垃圾评论-1
         env:
           AKISMET_API_KEY: ${{ secrets.AKISMET_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
